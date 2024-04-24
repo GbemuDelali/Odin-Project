@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+
+#header-container {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+#header-logo {
+    font-family: Times, serif;
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 250px;
+    padding-top: 20px;
+}
+
+div>ul>li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+}
+
+#links {
+    position: absolute;
+    left: 800px;
+    padding-top: 20px;
+}
+
+.header-links {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hero-main-text {
+    font-family: Times, serif;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    padding-top: 100px;
+    padding-left: 250px;
+}
+
+#hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-top: 5px;
+    padding-left: 250px;
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    color: #F9FAF8;
+    padding-top: 5px;
+    position: relative;
+    left: 250px;
+    top: 10px;
+}
+
+#image-placeholder {
+    width: 420px;
+    height: 200px;
+    background-color: grey;
+    color: wheat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 100px;
+    border: 1px;
+    position: absolute;
+    top: 180px;
+    Right: 240px;
+}
+
+#product-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    height: 400px;
+    background-color: #F9FAF8;
+    flex-direction: row;
+    justify-items: flex-start;
+    justify-content: space-evenly;
+}
+
+#product-info-header{
+    padding: 20px;
+    position: absolute;
+    left: 600px;
+    font-weight: bolder;
+    font-size: 36px;
+    font-family: Times, serif;
+    color: #1F2937;
+}
+
+.products{
+    height: 200px;
+    width: 200px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    position: relative;
+    top: 120px
+}
+
+#cart-button{
+    color: #3882f6;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    color: #F9FAF8;
+    padding-top: 5px;
+    position: relative;
+    left: 250px;
+    top: 10px;
+}
+
+
